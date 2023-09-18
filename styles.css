@@ -1,0 +1,90 @@
+body{
+    font-family: handel-gothic,sans-serif;
+}
+nav{
+    background-color:black;
+    height: 55px;
+}
+.nav-items{
+    color: white;
+    font-size: small;
+}
+.nav-item:hover{
+    color: gray;
+}
+.footer{
+    background-image: url(Images/footer-bkg.jpg);
+    height: 12rem;
+    position: relative;
+}
+.footer-logo{
+    position: absolute;
+    height: 1.5rem;
+    top: 20%;
+    left: 43%;
+}
+.footer-para{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    color: white;
+    font-size: small;
+}
+.footer-para2{
+    position: absolute;
+    top: 75%;
+    left: 45%;
+    color: white;
+    font-size: small;
+}
+.bg1{
+    background-image: url(Images/start-4.jpg");
+}
+.bg2{
+    background-image: url(Startbilder_crono.jpg);
+}
+.text{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+    color: white;
+    font-size: 400%;  
+    position: absolute;
+    top: 40%;
+}
+.bgaa{
+    background-image: url(Images/start-5.jpg);
+    background-size: cover;
+}
+
+
+@media(max-width: 1024px){
+    .nav-items{
+        display: none;
+    }
+    .logo{
+        height: 29px;
+        width: 175px;
+    }
+}
+@media(min-width: 1025px){
+    .menu-bar{
+        display: none;
+    }
+
+}
+@media(max-width: 760px){
+    .text{
+        font-size: 3em;
+    }
+    .footer-para{
+        left: 5%;
+    }
+    .footer-logo{
+        left: 25%;
+    }
+    .footer-para2{
+        left: 25%;
+    }
+}
